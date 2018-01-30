@@ -6,9 +6,73 @@
 
 
 body{
-	background-color: #333;
-	color: #333;
-	text-align: center;
-	font-size: 25px;
+    background: url(https://cdn.pixabay.com/photo/2014/12/17/18/40/fog-571786_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
 }
 
+.content-wrapper{
+    max-width: 530px;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-top: 66px;
+    background-color: rgba(14,14,13,.4);
+    box-shadow: 1px 2px 6pt 0px #101010;
+}
+.content-wrapper:hover{
+	background-color: rgba(14, 14, 13, 0.48);
+}
+.header{
+	color: #ffffff;
+    background: rgba(0, 0, 0, 0.22);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header h1{
+	font-family: 'Segoe UI';
+    text-shadow: 1px 2px 4px black;
+    font-weight: lighter;
+}
+
+.weather-info{
+	    min-height: 520px;
+}
+
+.weather-info .location{
+	    padding: 20px;
+	    color: #ffffff;
+}
+
+.weather-info .location h3{
+	color: #ffffff;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.temparature-stats .temp #unit{
+	color: #FF533D;
+    font-family: 'Segoe UI';
+    text-shadow: 1px 1px 5px #1b1a1a;
+    cursor: pointer;
+}
+
+.control{
+	 padding: 10px;
+}
+
+.control button{
+	border: 0;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(47, 47, 47, 0.7);
+    box-shadow: -1px 1px 6pt 0 #101010;
+    cursor: pointer;
+    outline: none;
+}
+
+#getloc:hover{
+	background-color: rgba(47, 47, 47, 0.54);
+}
